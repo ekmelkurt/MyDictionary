@@ -6,7 +6,13 @@ namespace MyDictionary
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            MyList<string> sehir = new MyList<string>();
+            sehir.Add("Erzurum..");
+            sehir.Add("Erzurum..");
+            sehir.Add("Erzurum..");
+            Console.WriteLine(sehir.Count);
+            Console.ReadLine();
+
         }
     }
 }
